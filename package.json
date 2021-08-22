@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "compress-audio": "node scripts/compress-audio"
   },
   "dependencies": {
     "next": "^10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "cli-progress": "^3.9.0",
+    "commander": "^8.1.0",
+    "fluent-ffmpeg": "^2.1.2"
   }
 }
